@@ -1,3 +1,4 @@
-<h1>Today is another day of learning some basics in JavaScript</h1>
-<p>I created task manager with CSS framework Bootstrap</p>
-<p>Simple adding and deleting task nothing else...</p>
+<h1>Task Manager in JavaScript</h1>
+<p>Today is 2 day of learning JavaScript so i decide to make task manager because it is popular these days</p>
+<p>I used some BootStrap for basic CSS and better look and also some basics of the JavaScript</p>
+<p>Enjoy! 😄</p>
