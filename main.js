@@ -7,7 +7,6 @@ function addElement() {
     if(inputTask.value.trim() !== "") {
         const newTask = document.createElement("li");
         newTask.textContent = inputTask.value;
-        newTask.innerHTML = start=1;
 
         const deleteButton = document.createElement("button");
         deleteButton.textContent = "Remove";
