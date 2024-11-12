@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Task Manager</title>
+</head>
+<body>
+    <div id = "wrapper" class="d-grid gap-3">
+        <div class="p-2  bg-light border mt-5 container col-md-4 justify-content-center">
+          <h1 class="text-center"><strong>Task MANAGER</strong></h1>
+          <p id="alert"></p>
+          <input id="task" class="form-control" type="text" placeholder="Input your task:"><br>
+          <button id="add" type="button" class="btn btn-primary">Add Task</button><br>
+        </div>
+        <div class="p-2  bg-light border mt-5 container col-md-4 justify-content-center">
+          <h3 class="text-center"><strong>Your tasks:</strong></h3>
+          <div id="task-list">
+            <p></p>
+          </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
